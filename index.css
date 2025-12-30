@@ -1,0 +1,62 @@
+body {
+    background-image: url("dogs2.jpg");
+    background-size: cover;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: coral;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#reset-btn {
+    background: darkblue;
+}
+
+#main-section {
+    max-width: 300px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+p {
+    color: darkblue;
+}
+#save-el {
+    margin-top: 0px;
+    font-size: 25px;
+}
