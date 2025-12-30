@@ -1,8 +1,8 @@
 body {
     background-image: url("dogs2.jpg");
     background-size: cover;
+    height: 500px;
     font-family: "Chewy", system-ui;
-    font-weight: 400;
     font-weight: bold;
     text-align: center;
 }
@@ -45,7 +45,7 @@ button {
 
 #main-section {
     max-width: 300px;
-    max-height: 500px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +56,7 @@ button {
 p {
     color: darkblue;
 }
+
 #save-el {
     margin-top: 0px;
     font-size: 25px;
