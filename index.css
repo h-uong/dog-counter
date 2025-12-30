@@ -1,14 +1,13 @@
 body {
-    background-image: url("dogs2.jpg");
+    background: linear-gradient(coral, greenyellow, darkgreen);
     background-size: cover;
-    height: 500px;
     font-family: "Chewy", system-ui;
     font-weight: bold;
     text-align: center;
 }
 
 h1 {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     color: coral;
 }
@@ -35,29 +34,46 @@ button {
     background: darkred;
 }
 
+#increment-btn:hover {
+    background: crimson;
+}
+
 #save-btn {
     background: darkgreen;
+}
+
+#save-btn:hover {
+    background: green;
 }
 
 #reset-btn {
     background: darkblue;
 }
 
-#main-section {
-    max-width: 300px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+#reset-btn:hover {
+    background: blue;
 }
 
-
 p {
-    color: darkblue;
+    color: darkgreen;
+    text-shadow: -3px 3px 2px whitesmoke;
 }
 
 #save-el {
     margin-top: 0px;
     font-size: 25px;
+}
+
+#main-section {
+    background-image: url("dogs2.jpg");
+    background-size: cover;
+    border: 8px solid coral;
+    border-radius: 30px;
+    width: 400px;
+    height: 525px;
+    margin: 30px auto 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
